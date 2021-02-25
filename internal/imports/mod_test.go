@@ -19,11 +19,12 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/mod/module"
 	"github.com/zachbadgett/gostrict/internal/gocommand"
 	"github.com/zachbadgett/gostrict/internal/gopathwalk"
 	"github.com/zachbadgett/gostrict/internal/proxydir"
 	"github.com/zachbadgett/gostrict/internal/testenv"
+
+	"golang.org/x/mod/module"
 	"golang.org/x/tools/txtar"
 )
 

@@ -10,12 +10,13 @@ import (
 	"bytes"
 	"fmt"
 	"go/build"
-	exec "golang.org/x/sys/execabs"
 	"io/ioutil"
 	"os"
 	"runtime"
 	"strings"
 	"sync"
+
+	exec "golang.org/x/sys/execabs"
 )
 
 // Testing is an abstraction of a *testing.T.

@@ -14,7 +14,6 @@ import (
 	"go/parser"
 	"go/scanner"
 	"go/token"
-	exec "golang.org/x/sys/execabs"
 	"io"
 	"io/ioutil"
 	"log"
@@ -26,6 +25,8 @@ import (
 
 	"github.com/zachbadgett/gostrict/internal/gocommand"
 	"github.com/zachbadgett/gostrict/internal/imports"
+
+	exec "golang.org/x/sys/execabs"
 )
 
 var (

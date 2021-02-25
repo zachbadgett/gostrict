@@ -19,8 +19,9 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/go/packages/packagestest"
 	"github.com/zachbadgett/gostrict/internal/gocommand"
+
+	"golang.org/x/tools/go/packages/packagestest"
 )
 
 var testDebug = flag.Bool("debug", false, "enable debug output")

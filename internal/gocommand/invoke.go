@@ -9,7 +9,6 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	exec "golang.org/x/sys/execabs"
 	"io"
 	"os"
 	"regexp"
@@ -19,6 +18,8 @@ import (
 	"time"
 
 	"github.com/zachbadgett/gostrict/internal/event"
+
+	exec "golang.org/x/sys/execabs"
 )
 
 // An Runner will run go command invocations and serialize
